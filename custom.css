@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.navbar-default {
+	background-color: #f88d3d;
+}
+.nav.navbar-nav li a {
+	color: white;
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.nav.navbar-nav li a:visted {
+	color: white;
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.nav.navbar-nav li a:hover {
+	color: #7F5E46;
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.nav.navbar-nav li a:active {
+	color: #7F5E46;
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+}
+/*
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7F5E46;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+*/
+
+
+h1 {
+	color: #7F5E46;
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+body {
+	background-image: url(images-bg/bg-yellow.jpg);
+}
+
+.maintext{
+	margin-bottom:80px;
+}
+
+
+footer {
+	background-color:#BDC866;
+	width: 100%;
+	height: 40px;
+	padding-top:10px;
+}
+
+#footerbottom{
+	position:absolute;
+	width: 100%;
+	height: 40px;
+	padding-top:10px;
+	bottom:0;
+	
+}
+.table {
+	margin-top: 9px;
+}
+tbody tr .h2 {
+	font-family: mystery-quest;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+}
+tbody tr .h3 {
+	font-family: nova-round;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+}
+tbody tr .h4 {
+	font-family: nova-round;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+}
+
+.table-bordered {
+  border: none;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+	border:none;
+}
+
+@media (max-width:767px){
+.container-fluid .navbar-header .navbar-toggle.collapsed {
+	background-color: #BDC866;
+}
+}
